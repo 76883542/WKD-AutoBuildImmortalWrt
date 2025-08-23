@@ -35,7 +35,7 @@ CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-mosdns luci-i18n-mosdns-zh-cn"
 # Turbo ACC 网络加速
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-turboacc"
 # 应用过滤 openappfilter.com
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-appfilter luci-i18n-appfilter-zh-cn"
+#CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-appfilter luci-i18n-appfilter-zh-cn"
 # 设置向导 by sirpdboy
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-netwizard luci-i18n-netwizard-zh-cn"
 # Lucky大吉 
@@ -43,9 +43,9 @@ CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-appfilter luci-i18n-appfilter-zh-cn"
 # 集客AC
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-gecoosac gecoosac"
 # 76883542自定义集成插件
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-appfilter luci-app-ddns-go"
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-appfilter luci-i18n-ddns-zh-cn"
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-appfilter ddns-scripts-noip"
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-appfilter ddns-scripts-cloudflare"
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-appfilter luci-i18n-autoreboot-zh-cn"
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-appfilter luci-i18n-upnp-zh-cn"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-ddns-go"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-ddns-zh-cn"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES ddns-scripts-noip"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES ddns-scripts-cloudflare"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-autoreboot-zh-cn"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-upnp-zh-cn"
