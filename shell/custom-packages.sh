@@ -43,6 +43,7 @@ CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-appfilter luci-i18n-appfilter-zh-cn"
 # 集客AC
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-gecoosac gecoosac"
 # 76883542自定义集成插件
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-appfilter luci-app-ddns-go"
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-appfilter luci-i18n-ddns-zh-cn"
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-appfilter ddns-scripts-noip"
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-appfilter ddns-scripts-cloudflare"
